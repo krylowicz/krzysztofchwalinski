@@ -1,7 +1,6 @@
-import { ChakraProvider } from '@chakra-ui/core'
-
-import theme from '../theme'
-import { AppProps } from 'next/app'
+import { ChakraProvider } from '@chakra-ui/core';
+import theme from '../theme';
+import { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -11,4 +10,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-export default MyApp
+export default MyApp;

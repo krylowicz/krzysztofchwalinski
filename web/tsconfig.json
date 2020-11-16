@@ -28,6 +28,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
+  "paths": {
+    "@components/*": ["./src/components/*"],
+    "@pages/*": ["./src/pages/*"],
+    "@utils/*": ["./src/utils/*"],
+    "@hooks/*": ["./src/hooks/*"],
+  },
   "exclude": [
     "node_modules",
     "build",
