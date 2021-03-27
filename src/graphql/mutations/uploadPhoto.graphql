@@ -1,0 +1,3 @@
+mutation UploadPhoto($options: PhotoInput!) {
+  uploadPhoto(options: $options)
+}

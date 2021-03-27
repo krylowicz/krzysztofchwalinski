@@ -12,6 +12,18 @@ const theme = {
   },
   fonts,
   breakpoints,
+  styles: {
+    global: {
+      "body": {
+        width: "100vw",
+        height: "100vh",
+      },
+      "#__next": {
+        width: "100vw",
+        height: "100vh",
+      }
+    }
+  }
 }
 
 export default theme
